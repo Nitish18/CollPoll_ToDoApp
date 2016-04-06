@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/coll"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:padding="10sp"
+        android:layout_marginTop="35sp"
+        />
+
+
+    <com.romainpiel.shimmer.ShimmerTextView
+        android:id="@+id/shimmer_tv"
+        android:text="CollPoll ToDo App"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#444"
+        android:textSize="25sp"
+        android:layout_marginTop="35sp"
+        android:layout_gravity="center"
+        />
+
+
+
+</LinearLayout>

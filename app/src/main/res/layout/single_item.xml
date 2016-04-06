@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="100"
+    android:orientation="horizontal"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:layout_marginTop="5sp"
+        android:layout_marginLeft="5sp"
+        android:id="@+id/taskTextView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="17dp"
+        android:layout_marginBottom="3sp"
+        android:layout_toLeftOf="@+id/doneButton"
+        android:layout_alignBottom="@+id/doneButton"
+        android:gravity="center_vertical"
+        android:layout_weight="100"
+        />
+    <Button
+        android:layout_width="55dip"
+        android:layout_height="40dip"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="3sp"
+        android:layout_weight="5"
+        android:background="@drawable/back_butt"
+        android:textColor="#FFFFFF"
+        android:layout_marginRight="2sp"
+        android:text="Done"
+        android:id="@+id/doneButton"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="onDoneButtonClick" />
+
+    <Button
+        android:layout_width="55dip"
+        android:layout_height="40dip"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="3sp"
+        android:layout_marginBottom="3sp"
+        android:layout_weight="5"
+        android:layout_marginRight="2sp"
+        android:id="@+id/sharebutton"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="onShareButtonClick"
+        android:background="@drawable/twitt"
+        />
+</LinearLayout>
